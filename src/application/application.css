@@ -1,0 +1,24 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.mybutton{
+	-fx-background-color: brown;
+	-fx-border-color: brown;
+	-fx-text-fill: white;
+}
+
+.mytitle{
+    /*-fx-font-family: "HipsterishFontNormal";*/
+    -fx-font-family: "Shadows Into Light";
+}
+
+.avatar {
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio
+    background-image: "refugees.jpg";*/
+    
+  object-fit: cover;
+  border-radius:50%;
+  width: 150px;
+  height: 150px;
+  
+  
+  
+}
